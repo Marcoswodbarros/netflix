@@ -1,0 +1,47 @@
+.seriesExcentricas__container{
+    margin: auto 2rem;
+}
+
+.seriesExcentricas__titulo{
+    color: var(--branco);
+    font-family: var(--font-principal);
+    margin: 1rem 0;
+}
+
+.seriesExcentricas{
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(5, auto);
+}
+
+.poster4 img{
+    width: 100%;
+}
+
+.poster4 img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.seriesExcentricas__container--arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    color: var(--cor-arrow);
+    font-weight: 700;
+    position: relative;
+}
+
+.fa-chevron-left{
+    left: .8rem;
+    top: 5rem;
+}
+
+.fa-chevron-right{
+    bottom: 5rem;
+    left: 98%;
+}

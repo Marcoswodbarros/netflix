@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Days of Code</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <script src="https://kit.fontawesome.com/255fbd2cbb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="header__container--lista">
+                <img src="img/logo.svg" alt="Logo da Netflix" class="header__logo">
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Séries</a></li>
+                        <li><a href="#">Filmes</a></li>
+                        <li><a href="#">Bombando</a></li>
+                        <li><a href="#">Minha lista</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__container--itens">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="img/user.png" alt="Ícone do usuário" class="header__icone--usuario">
+                <i class="fa-solid fa-caret-down"></i>
+            </div>
+        </header>
+
+        <main>
+            <div class="main__container--banner">
+                <div class="main__banner--spiderhead"></div>
+                <span>Em uma penitenciária de última geração, um detento <br>
+                    participa de um experimento com drogas que controlam as <br>
+                    emoções para um gênio da indústria farmacêutica.</span>
+            </div>
+
+            <button class="main__button--assistir"><i class="fa-solid fa-play"></i>Assistir</button>
+            <button class="main__button--info"><i class="fa-solid fa-circle-info"></i>Mais informações</button>
+        </main>
+    </div>
+
+    <div class="listas__container">
+        <section class="minhaLista__container">
+            <p class="minhaLista__titulo">Minha lista</p>
+            <div class="minhaLista">
+                <div class="poster1"><img src="img/Minha lista/poster_01.svg" alt="Série: Bojack Horseman"></div>
+                <div class="poster1"><img src="img/Minha lista/poster_02.svg" alt="Série: Ozark"></div>
+                <div class="poster1"><img src="img/Minha lista/poster_03.svg" alt="Filme: A vizinha da mulher na janela"></div>
+                <div class="poster1"><img src="img/Minha lista/poster_04.svg" alt="Série: Breaking Bad"></div>
+                <div class="poster1"><img src="img/Minha lista/poster_05.svg" alt="Série: The end of the fxxxing world"></div>
+            </div>
+        </section>
+
+        <section class="emAlta__container">
+            <p class="emAlta__titulo">Em alta</p>
+            <div class="emAlta">
+                <div class="poster2"><img src="img/Em alta/poster_01.svg" alt="Série: Stranger Things"></div>
+                <div class="poster2"><img src="img/Em alta/poster_02.svg" alt="Série: The Umbrella Academy"></div>
+                <div class="poster2"><img src="img/Em alta/poster_03.svg" alt="Série: Peaky Blinders"></div>
+                <div class="poster2"><img src="img/Em alta/poster_04.svg" alt="Filme: Arremessando alto"></div>
+                <div class="poster2"><img src="img/Em alta/poster_05.svg" alt="Filme: Amor e Gelato"></div>
+            </div>
+        </section>
+
+        <section class="seriesEstrangeiras__container">
+            <p class="seriesEstrangeiras__titulo">Séries estrangeiras</p>
+            <div class="seriesEstrangeiras">
+                <div class="poster3"><img src="img/Séries estrangeiras/poster_01.svg" alt="Série: Queen Loretta"></div>
+                <div class="poster3"><img src="img/Séries estrangeiras/poster_02.svg" alt="Série: As 7 vidas de Lea"></div>
+                <div class="poster3"><img src="img/Séries estrangeiras/poster_03.svg" alt="Série: Young Royals"></div>
+                <div class="poster3"><img src="img/Séries estrangeiras/poster_04.svg" alt="Série: Bem-vindos ao Éden"></div>
+                <div class="poster3"><img src="img/Séries estrangeiras/poster_05.svg" alt="Série: Dark"></div>
+            </div>
+        </section>
+
+        <section class="seriesExcentricas__container">
+            <p class="seriesExcentricas__titulo">Séries excêntricas de humor ácido</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-chevron-left"></i></a>
+            <div class="seriesExcentricas">
+                <div class="poster4"><img src="img/Séries excêntricas/poster_01.svg" alt="Série: Ozark"></div>
+                <div class="poster4"><img src="img/Séries excêntricas/poster_02.svg" alt="Série: Bojack Horseman"></div>
+                <div class="poster4"><img src="img/Séries excêntricas/poster_03.svg" alt="Série: The Good Place"></div>
+                <div class="poster4"><img src="img/Séries excêntricas/poster_04.svg" alt="Série: Conversations with a killer"></div>
+                <div class="poster4"><img src="img/Séries excêntricas/poster_05.svg" alt="Série: Gabriel Fluffy Iglesias"></div>
+            </div>
+            <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer__icons">
+            <a href="#" class="icons"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icons"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icons"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="icons"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <nav class="footer__container--navs">
+            <ul class="footer__links footer__links--alinhamento">
+                <li><a href="#">Idioma e legendas</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Entre em contato</a></li>
+            </ul>
+
+            <ul class="footer__links">
+                <li><a href="#">Audiodescrição</a></li>
+                <li><a href="#">Relações com investidores</a></li>
+                <li><a href="#">Avisos legais</a></li>
+            </ul>
+
+            <ul class="footer__links">
+                <li><a href="#">Centro de ajuda</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Preferência de cookies</a></li>
+            </ul>
+
+            <ul class="footer__links">
+                <li><a href="#">Cartão pré-pago</a></li>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Informações corporativas</a></li>
+            </ul>
+        </nav>
+
+        <button class="footer__button">Código do serviço</button>
+
+        <span class="span__rodape">&copy; 1997-2022 Netflix, Inc.</span>
+    </footer>
+</body>
+
+</html>

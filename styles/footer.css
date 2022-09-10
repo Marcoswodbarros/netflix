@@ -1,0 +1,63 @@
+.footer__icons{
+    display: flex;
+    position: relative;
+    bottom: 6.5rem;
+}
+
+.icons{
+    color: var(--branco);
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.footer__container--navs{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    position: relative;
+    bottom: 5rem;
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links li{
+    font-size: .8rem;
+    margin-top: 1rem;
+}
+
+.footer__links li a{
+    color: var(--cinza);
+}
+
+.footer__links--alinhamento{
+    position: relative;
+    top: 0.8rem;
+}
+
+.footer__button{
+    background-color: var(--preto);
+    border: 1px solid var(--cor-botaoInfo);
+    color: var(--cor-botaoInfo);
+    font-family: var(--font-principal);
+    font-size: .9rem;
+    padding: .5rem;
+    position: relative;
+    left: 1.8rem;
+    bottom: 2rem;
+}
+
+.span__rodape{
+    color: var(--cinza);
+    display: inline-block;
+    font-family: var(--font-principal);
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    position: relative;
+    right: 7.5rem;
+    top: 2rem;
+}

@@ -1,0 +1,42 @@
+@import url(styles/header.css);
+@import url(styles/main__principal.css);
+@import url(styles/button.css);
+@import url(styles/minhaLista.css);
+@import url(styles/emAlta.css);
+@import url(styles/seriesEstrangeiras.css);
+@import url(styles/seriesExcentricas.css);
+@import url(styles/footer.css);
+
+:root{
+    --font-principal: "Inter", sans-serif;
+
+    --branco: #FFFFFF;
+    --cinza: #808080;
+    --preto: #000000;
+    --cor-arrow: rgba(255, 255, 255, 0.637);
+    --cor-botaoInfo: rgba(109, 109, 110, 0.7);
+    --cor-botaoInfo-hover: rgba(109, 109, 110, 0.525);
+    --cor-botaoPlay-hover: rgba(255, 255, 255, 0.777);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+.background{
+    height: 100vh;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 5%,
+      rgba(0, 0, 0, 0.2) 20%,
+      rgba(0, 0, 0, 0.2) 80%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(img/background.png);
+    background-size: cover;
+    padding: 0.26rem 0.75rem 0 0.75rem;
+}

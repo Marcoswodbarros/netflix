@@ -1,0 +1,33 @@
+.main__button--assistir, .main__button--info{
+    background-color: var(--branco);
+    border-radius: .3rem;
+    border-style: none;
+    color: black;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding: .5rem 2.1rem;
+}
+
+.main__button--assistir:hover{
+    background-color: var(--cor-botaoPlay-hover);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.main__button--info{
+    background: var(--cor-botaoInfo);
+    color: var(--branco);
+    margin-left: .5rem;
+}
+
+.main__button--info:hover{
+    background: var(--cor-botaoInfo-hover);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.fa-play, .fa-circle-info{
+    margin-right: .5rem;
+}

@@ -1,0 +1,30 @@
+.listas__container{
+    position: relative;
+    bottom: 7rem;
+}
+
+.minhaLista__container{
+    margin: auto 2rem 2rem 2rem;
+}
+
+.minhaLista__titulo{
+    color: var(--branco);
+    font-family: var(--font-principal);
+    margin: 1rem 0;
+}
+
+.minhaLista{
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: repeat(5, auto);
+}
+
+.poster1 img{
+    width: 100%;
+}
+
+.poster1 img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .5s;
+}
